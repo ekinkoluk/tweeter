@@ -38,3 +38,33 @@ h2 {
   text-align: center;
   margin: 0;
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #8a0024;
+  background-color: thistle;
+  font-size: 32px;
+  font-family: 'Source Sans Pro', Sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1em 5% 1em 5%;
+  overflow-y: hidden;
+
+}
+
+h2 {
+  color:#8a0024;
+  text-align: center;
+  margin: 0;
+}
+

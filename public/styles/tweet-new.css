@@ -32,7 +32,7 @@
 }
 
 .counterMinus {
-  color:thistle;
+  color:rgb(53, 3, 53);
 }
 
 button {
@@ -71,7 +71,7 @@ button:active {
   margin-bottom: 1em;
   padding: 0.5em;
 }
-tweets-container {
+#tweets-container {
   display: flex;
   flex-direction: column;
   width: 100%;

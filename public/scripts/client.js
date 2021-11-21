@@ -1,5 +1,4 @@
 
-
 $(document).ready(function() {
   //Helper functions
 
@@ -62,28 +61,14 @@ $(document).ready(function() {
     if (!num)  {
       message = "You forgot to enter some text!";
     } else if (num > 140) {
-      message = "Please shorten your thoughts to 140 characters or less!";
+      message = "Your tweet should be 140 characters or less.";
     }
     if (message)  {
       return `<span><i class="fas fa-exclamation-triangle"></i></span><span>${message}</span><span><i class="fas fa-exclamation-triangle"></i></span>`;
     }
   };
 
-  // Function to change opacity of navbar while scrolling
-  const changeNavOpacity = function() {
-    let y2 = $(this).scrollTop();
-    let opacity = 1;
-    if (windowsize < 1024) {
-      if (y2 < 400) {
-        opacity = 1 - y2 / (800);
-      } else {
-        opacity = 0.5;
-      }
-    } else {
-      opacity = 1;
-    }
-    $('.fadenav').css('opacity', opacity);
-  };
+ 
 
   // Upon document loading, load all tweets
   loadTweets();
@@ -112,4 +97,13 @@ $(document).ready(function() {
     $('.new-tweet').slideToggle("fast", function() {
       $('#tweet-text').focus();
     });
-  
+  });
+
+
+ 
+  let windowsize = $(window).width();
+  $(window).bind('resize', function() {
+    windowsize = $(window).width();
+   
+  });
+});

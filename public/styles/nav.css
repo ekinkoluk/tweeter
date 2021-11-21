@@ -1,8 +1,9 @@
-nav {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #8a0027;
+  background-color: #bd345a;
+  background-image: url('../images/45-degree-fabric-dark.png');
   color: #FFFFFF;
   height: 120px;
   width: 100%;
@@ -35,7 +36,7 @@ nav {
 }
 
 #arrow-icon {
-  color: #9cd5f6;
+  color: thistle;
   display: flex;
   justify-content: center;
 }
@@ -47,4 +48,16 @@ nav {
   z-index: 1;
   font-size: 40pt;
   opacity: 0;
+}
+
+#logo {
+  font-family: 'Bungee', cursive;
+  color: white;
+}
+
+img.profile {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%
 }

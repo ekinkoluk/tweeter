@@ -1,4 +1,4 @@
-header {
+header.top {
   margin-top: 120px;  
   height: 400px;
   width: 100%;
@@ -6,14 +6,14 @@ header {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color:#8a0027 ;
+  background-color: #bd345a;
   background-image: url('../images/45-degree-fabric-dark.png');
+  overflow-wrap: break-word;
 }
 
-p {
+
+.bold {
   font-weight: normal;
+  color:white;
 }
-.name {
-  font-weight: normal;
-  color: white;
-}
+
