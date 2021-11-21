@@ -24,3 +24,27 @@ nav {
   justify-content: center;
 }
 
+#arrow-icon:hover {
+  color:thistle;
+}
+#writenew {
+  padding-top: 1em;
+  position: relative;
+  font-size: 18pt;
+  cursor: pointer;
+}
+
+#arrow-icon {
+  color: #9cd5f6;
+  display: flex;
+  justify-content: center;
+}
+
+#up-arrow {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+  font-size: 40pt;
+  opacity: 0;
+}
