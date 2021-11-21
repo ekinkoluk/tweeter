@@ -2,7 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4056A1;
+  background-color: #8a0027;
   color: #FFFFFF;
   height: 120px;
   width: 100%;
@@ -16,4 +16,10 @@ nav {
 
 #logo{
   font-family: 'Bungee', cursive;
+  font-size: xx-large;
+}
+#arrow-icon {
+  color: #8797ca;
+  display: flex;
+  justify-content: center;
 }
