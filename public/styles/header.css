@@ -9,3 +9,11 @@ header {
   background-color:#8a0027 ;
   background-image: url('../images/45-degree-fabric-dark.png');
 }
+
+p {
+  font-weight: normal;
+}
+h2 {
+  font-weight: normal;
+  color: white;
+}

@@ -19,7 +19,8 @@ nav {
   font-size: xx-large;
 }
 #arrow-icon {
-  color: #8797ca;
+  color: hsl(162, 39%, 66%);
   display: flex;
   justify-content: center;
 }
+
