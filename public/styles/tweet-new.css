@@ -71,3 +71,8 @@ button:active {
   margin-bottom: 1em;
   padding: 0.5em;
 }
+tweets-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

@@ -1,0 +1,66 @@
+
+article {
+  width: 100%;
+  background-color: white;
+  border: solid 5px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border-radius: 5px;
+  background-image: url('../images/bg-leaves.png');
+  word-wrap: break-word;
+}
+
+article:hover {
+  box-shadow: 5px 5px #104a7370;
+  transition-duration: 0.2s;
+}
+
+#tweets-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5em 1em 0 1em;
+  font-size: small;
+  border-top: solid 5px;
+}
+
+p {
+  padding: 0 1em 0 1em;
+}
+
+.userid {
+  opacity: 50%;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+  font-weight: lighter;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.fas:hover {
+  opacity: 50%;
+  transition-duration: 0.2s;
+}
+
+.profileimg {
+  padding-right: 0.5em;
+}
