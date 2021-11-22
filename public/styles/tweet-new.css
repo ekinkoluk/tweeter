@@ -56,7 +56,7 @@ button:active {
   border: 3px solid #8a0024;
 }
 
-#tweet-below {
+#tweet-sub {
   display: flex;
   justify-content: space-between;
   padding: 0em 0em 1em;
