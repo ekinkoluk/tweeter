@@ -118,13 +118,7 @@
     padding: 1em;
   }
 
-  #up-arrow {
-    position: fixed;
-    bottom: 10px;
-    right: 29%;
-    z-index: 1;
-    font-size: 64pt;
-  }
+
 
   #logo {
     width: 33%;
