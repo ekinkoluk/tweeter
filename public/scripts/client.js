@@ -59,7 +59,7 @@ $(document).ready(function() {
   const errorMsg = function(num) {
     let message = "";
     if (!num)  {
-      message = "You forgot to enter some text!";
+      message = "You forgot to enter text";
     } else if (num > 140) {
       message = "Your tweet should be 140 characters or less.";
     }
