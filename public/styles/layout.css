@@ -3,6 +3,9 @@
  * https://css-tricks.com/international-box-sizing-awareness-day/
  * Do not modify these two selectors, please
  */
+
+ /* I DIDNT modify these two because of the above statement and I know
+ these two (html and body are redundant since I changed their values below*/
 html {
   box-sizing: border-box;
 }
@@ -38,13 +41,14 @@ h2 {
   text-align: center;
   margin: 0;
 }
+/*same statment as the above, did not want to modify the code above*/
 html {
   box-sizing: border-box;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
+/*changed the above body styling, they said do not modify the code above, that's why*/
 body {
   color: #8a0024;
   background-color: thistle;
